@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.header{
+    background-color: #AFDAFC;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2ba2e7;
+}
+.header div{
+    padding: 10px 15px;
+    height: 70px;
+    width: 30.6%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; 
+}
+.header div img{
+    float: left;
+    height: 100%;
+    clear: right;
+}
+.header div p{
+   float: left;
+   margin-left: 8%;
+   margin-top: 2%;
+   font-size: 1.5em;
+   font-style: italic;
+   color: #2e73b8;
+}
+.header div:hover{
+    background-color: #7FC7FF;
+}
+.content{
+    padding: 22px 20px;
+    margin: 15px auto;
+    }
+figure{
+    margin: 30px 15px;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+figure img{
+    height: 400px;
+}
+figcaption{
+   font-size: 1.5em;
+   font-style: italic;
+   color: #2e73b8; 
+}
+figure:hover{
+    background-color: #AFDAFC;
+}
+.footer{
+    background-color: #AFDAFC; 
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top: 1px solid #2ba2e7;
+    color: #2e73b8;
+}
+.footer_icons{
+    background-color: #AFDAFC; 
+    margin-right: 3%;
+    height: 50px;
+    float: right;
+}
+.footer_icons:hover{
+  background-color: white;  
+}
+.footer p{
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 15%;
+}
+a{
+    text-decoration: none;
+}
+.content h1{
+    text-align: center;
+    color: #2e73b8;
+}
+.content p{
+	font:  italic 16pt serif; 
+    color: #2e73b8;
+}
+.header .logo{
+    margin-right: -4px;
+    border-right: 1px solid #2ba2e7;
+    box-sizing: border-box;
+    width: 7%;
+}
+.ex_list{
+    padding: 10px;
+    margin: 20px;
+    width: 21.7%;
+    float: left;
+    background-color: #AFDAFC; 
+}
+.ex_list ul{
+    list-style-type: square;
+}
+.ex_list ul li{
+    padding-left: 15px;
+    height: 100px;
+    color: #2e73b8;
+    font-size: 1.5em;
+}
+.ex_list ul li:hover{
+    background-color: #7FC7FF;
+}
+.content_list{
+    margin: 13px 0px;
+}
+.content_table{
+    padding: 109px 50px;
+}
+.content_table td, .content_table th {
+    font-size: 1.3em;
+}
